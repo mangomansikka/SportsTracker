@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class SportsTracker {
 
+    // Log of activities with the date and duration
     HashMap<String, HashMap<LocalDate, Integer>> activities = new HashMap<>();
 
     public void logActivity(String activity, int duration) {
